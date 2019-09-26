@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+	<style>
+	    .fun {
+	      background-color: #FF9700;
+	      color: black;
+	      margin: 10px;
+	      padding: 60px;
+	  }
+	  </style>
+	<style>
+	  .cool {
+	    background-color: black;
+	    color: white;
+	    margin: 20px;
+	    padding: 1px;
+	  }
+	</style>
+	<style>
+	    .nice {
+	      background-color: #FCA995;
+	      margin: 1px;
+	      padding: 1px;
+	  }
+	  </style>
+	  <style>
+	      .go {
+	        background-color: #FFB900;
+	        margin: 10px;
+	        padding: 10px;
+	    }
+	    </style>
+<style>
+	.move {
+		background-color: #F9F290;
+		margin: 1px;
+		padding: 50px;
+		width: 600px;
+    color: black;
+	}
+</style>
+	<body>
+	  <div class="fun">
+	    <div class="nice">
+	      <strong><center><h1>Shoeniverse</center><strong></h1>
+	        <img src="https://www.freeiconspng.com/uploads/basketball-png-1.png"
+	            alt="Basketball" height="130" width="130" align=left>
+	        <img src="https://www.freeiconspng.com/uploads/basketball-png-1.png"
+	             alt="Basketball" height="130" width="130" align=right>
+<br>
+
+<br>
+	     <div class="cool">
+	       <center><h3>Exlusive Sneaker Exhibit. Experience the collection.<center></h3>
+       <div class="move">
+         <p>Below our some pieces that will be displayed at our collection! If you are unable to
+                          attend, click the photo to purchase it online!</p>
+         <a href="video.html"><img src="https://i.ebayimg.com/images/g/3IUAAOSwuhNdUv3L/s-l300.png"
+             alt="Basketball" height="130" width="130" align=left> </a>
+         <a href="pic.html"><img src="https://i.ebayimg.com/images/g/3IUAAOSwuhNdUv3L/s-l300.png"
+                 alt="Basketball" height="130" width="130" align=left> </a>
+         <a href="chart.html"><img src="https://i.ebayimg.com/images/g/3IUAAOSwuhNdUv3L/s-l300.png"
+                         alt="Basketball" height="130" width="130" align=left> </a>
+        <a href="https://google.com"><img src="https://i.ebayimg.com/images/g/3IUAAOSwuhNdUv3L/s-l300.png"
+                         alt="Basketball" height="130" width="130" align=left> </a>
+
+         <div class="fun">
+
+         </div>
+       </div>
+	         <div class="fun">
+
+	      </div>
+	  </div>
+	</body>
+
+<br>
+
+<body>
+  <div class="go">
+    <h3>About the Collection</h3>
+    <p>Come and view our sneaker exhibit in the Tacoma Art Museum. A wide range of sneakers from
+    varying brands, available at varying prices. Tomorrow at 7pm, the exhibit will be open to
+  the general public. Anyone wishing to buy sneakers at our collection exhibit can refer
+  the table below for a sneak peak of our vintage and newer options!</p>
+  </div>
+</body>
+
+<br>
+	<body>
+	  <div class="go">
+			<div class="move">
+				<div align="center" id="table">
+		 		<table color="yellow" border="30" background-color=red>
+		 			<tr>
+		 				<th>Name</th>
+		 				<th scope="col">Air Jordan XXXIV</th>
+		 				<th scope="col">Nike Air Max Infuriate III Low</th>
+						<th scope="col">D ROSE 10 </th>
+						<th scope="col">N3XT L3V3L SHOES</th>
+						<th scope="col">Uproar Core Basketball Shoes</th>
+						<th scope="col">Legacy Dark Mode Basketball Shoe</th>
+		 			</tr>
+		 			<tr>
+		 				<th scope="row">Brand</th>
+		 				<td>Nike </td>
+		 				<td>Nike </td>
+						<td>Adidas</td>
+						<td>Adidas</td>
+						<td>Puma</td>
+						<td>Puma</td>
+		 				</tr>
+		 				<tr>
+		 					<th scope="row">Price</th>
+		 					<td>$180</td>
+		 					<td>$210</td>
+							<td>$340</td>
+							<td>$120</td>
+							<td>$260</td>
+							<td>$255</td>
+		 			<tr>
+		 					<th scope="row">Year</th>
+		 					<td>2018</td>
+		 					<td>2009</td>
+							<td>2016</td>
+							<td>2003</td>
+							<td>2007</td>
+							<td>2014</td>
+		 			</tr>
+		 	 </div>
+			</div>
+
+	    </div>
+	  </div>
+	</body>

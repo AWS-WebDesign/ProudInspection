@@ -5,7 +5,7 @@
 	      background-color: #FF9700;
 	      color: black;
 	      margin: 10px;
-	      padding: 60px;
+	      padding: 50px;
 	  }
 	  </style>
 	<style>
@@ -35,8 +35,7 @@
 		background-color: #F9F290;
 		margin: 1px;
 		padding: 50px;
-		width: 600px;
-    color: black;
+		width: 600px
 	}
 </style>
 	<body>
@@ -47,51 +46,23 @@
 	            alt="Basketball" height="130" width="130" align=left>
 	        <img src="https://www.freeiconspng.com/uploads/basketball-png-1.png"
 	             alt="Basketball" height="130" width="130" align=right>
-<br>
-
-<br>
+               <img src="https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/ebe65ab2e8924a7fbda4a9f40001ced8_9366/Marquee_Boost_Shoes_Black_EF1230_01_standard.jpg"
+               alt="jordans" width="250" height="250" align=right>
+           <img src="https://www.freeiconspng.com/uploads/basketball-png-1.png"
+                alt="Basketball" height="130" width="130" align=right>
 	     <div class="cool">
 	       <center><h3>Exlusive Sneaker Exhibit. Experience the collection.<center></h3>
-       <div class="move">
-         <p>Below our some pieces that will be displayed at our collection! If you are unable to
-                          attend, click the photo to purchase it online!</p>
-         <a href="https://google.com"><img src="https://i.ebayimg.com/images/g/3IUAAOSwuhNdUv3L/s-l300.png"
-             alt="Basketball" height="130" width="130" align=left> </a>
-         <a href="https://google.com"><img src="https://i.ebayimg.com/images/g/3IUAAOSwuhNdUv3L/s-l300.png"
-                 alt="Basketball" height="130" width="130" align=left> </a>
-         <a href="https://google.com"><img src="https://i.ebayimg.com/images/g/3IUAAOSwuhNdUv3L/s-l300.png"
-                         alt="Basketball" height="130" width="130" align=left> </a>
-        <a href="https://google.com"><img src="https://i.ebayimg.com/images/g/3IUAAOSwuhNdUv3L/s-l300.png"
-                         alt="Basketball" height="130" width="130" align=left> </a>
-
-         <div class="fun">
-
-         </div>
-       </div>
 	         <div class="fun">
 
 	      </div>
 	  </div>
 	</body>
 
-<br>
-
-<body>
-  <div class="go">
-    <h3>About the Collection</h3>
-    <p>Come and view our sneaker exhibit in the Tacoma Art Museum. A wide range of sneakers from
-    varying brands, available at varying prices. Tomorrow at 7pm, the exhibit will be open to
-  the general public. Anyone wishing to buy sneakers at our collection exhibit can refer
-  the table below for a sneak peak of our vintage and newer options!</p>
-  </div>
-</body>
-
-<br>
 	<body>
 	  <div class="go">
 			<div class="move">
-				<div align="center" id="table">
-		 		<table color="yellow" border="30" background-color=red>
+				<div id="table">
+		 		<table border="30">
 		 			<tr>
 		 				<th>Name</th>
 		 				<th scope="col">Air Jordan XXXIV</th>

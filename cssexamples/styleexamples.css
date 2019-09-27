@@ -1,0 +1,49 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  /* align-items: center; */
+
+  /*background possibilities*/
+  background: red;
+  background-image: url(https://wordpress.accuweather.com/wp-content/uploads/2019/01/1434247.large_.jpg);
+  /* background-color: */
+  /* background-position: */
+  /* background-repeat: */
+
+  /* font possibilities */
+  font-family: Times;
+  font-size: 100px;
+  font-weight: 100;
+  letter-spacing: 20px;
+  text-transform: lowercase;
+  color: black;
+  /* font-stretch: */
+  /* font-variant: */
+}
+
+ul {
+  /* Edit unordered list style */
+}
+
+li {
+  /* Edit list item style */
+}
+
+h1 {
+  /* Edit header 1 style */
+}
+
+.example1 {
+  /* Edit the class "example1" stle" */
+
+  /* Overflow changes */
+  overflow: auto;
+  /* overflow-x: hidden; */
+  /* overflow-y: scroll; */
+
+  position: relative;
+  border: 2px solid #DDD;
+  border-radius: 3px;
+  width: 80%;
+}

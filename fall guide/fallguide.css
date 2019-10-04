@@ -1,0 +1,56 @@
+
+
+.title {
+  background-color: #CD1A00;
+  color: yellow;
+  padding: 10px;
+  font-size: 70px;
+  border: black;
+  cursor: grabbing;
+  border-style: dashed;
+
+}
+
+.title2 {
+  background-color: black;
+  color: #CD1A00;
+  padding: 10px;
+  font-size: 70px;
+  border: black;
+  cursor: grabbing;
+  border-style: dashed;
+  font-family: bold;
+  text-align: center;
+
+}
+.title3 {
+  color: #FCE5FF;
+
+}
+
+body {
+  background-image: url("fall3.jpg");
+  background-repeat: repeat;
+}
+
+.title5 {
+  background-color:  #CD1A00;
+  color: black;
+  padding: 1px;
+  font-size: 20px;
+  border: black;
+  cursor: grabbing;
+  border-style: dashed;
+  font-family: Snell Roundhand;
+  text-align: center;
+
+  }
+
+  .paragraph {
+    background-color:#FFA34D;
+    color: black;
+    padding: 1px;
+    font-size: 20px;
+    border: black;
+    cursor: grabbing;
+  }

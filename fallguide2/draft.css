@@ -1,35 +1,111 @@
 
 .title {
-  background-color: lavender;
+  background-color: purple;
   margin: 20px;
   padding:10px;
-  color: red;
+  color: white;
+  text-align: center;
+  font-family: inherit;
+}
+
+.heading {
+  background-color: lavender;
+  margin: 90px;
+  padding:1px;
+  color: black;
   text-align: center;
   font-family: inherit;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: lavender;
+  background-color: #D29FF1;
 }
 .topnav a {
-  float: left;
+  float:  center ;
   display: block;
   color: black;
   text-align: center;
   padding: 10px 20px;
   text-decoration: none;
 }
+
 .topnav a:hover {
   background-color: orange;
   color: black;
 }
 
+.events {
+  overflow: hidden;
+  background-color: #D29FF1;
+}
+
+.events a {
+  float:  left ;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.events a:hover {
+  background-color: orange;
+  color: black;
+}
+
+.image-cropper {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    border-style: groove;
+    border-color: #FE8B0A;
+    border-width: 30px;
+}
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  background-color: lavender;
+  color: black;
+  margin: 10px;
+  padding: 1px;
+  font-family: Times
+}
+
+.content2 {
+  background-color: #FF7700;
+  color: black;
+  margin: 20px;
+  font-family: Times;
+  padding: 1px;
+  border-style: groove;
+  border-color: orange;
+  text-align: center;
+}
+
 .column {
   float: left;
   padding: 10px;
+  overflow: scroll;
+  width: 30%;
+  margin: 5px;
+}
+
+.column2 {
+  float: left;
 }
 .column.middle {
+  width: 30%
+}
+
+.colum.side {
   width: 30%
 }
 
@@ -39,9 +115,8 @@
   clear: both;
 }
 
-
-@media screen and (max-width:700px){
-  .column.side, .column.middle {
+@media screen and (max-width:1100px){
+  .column, .column {
     width: 100%
   }
 }

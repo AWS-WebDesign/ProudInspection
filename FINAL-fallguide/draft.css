@@ -1,0 +1,175 @@
+
+.title {
+  background-color: purple;
+  margin: 20px;
+  padding:10px;
+  color: white;
+  text-align: center;
+  font-family: inherit;
+}
+/* Used for header on first page.
+Made to cover only part of the images*/
+.heading {
+  background-color: red;
+  margin: 20px;
+  padding:80px;
+  color: black;
+  text-align: center;
+  font-family: inherit;
+}
+
+/* Seocnd header*/
+.heading2{
+  background-color: red;
+  margin: 200px;
+  padding:0px;
+  color: black;
+  text-align: center;
+  font-family: inherit;
+  float: center;
+}
+.patch {
+  float: center;
+}
+
+/*Content used for most bodies of information*/
+
+.content {
+  background-color: lavender;
+  color: black;
+  margin: 10px;
+  padding: 1px;
+  font-family: Times
+}
+
+.content2 {
+  background-color: #FF7700;
+  color: black;
+  margin: 20px;
+  font-family: Times;
+  padding: 1px;
+  border-style: groove;
+  border-color: orange;
+  text-align: center;
+}
+
+.content3 {
+  background-color: #D29FF1;
+  color: black;
+  margin: 20px;
+  font-family: Times;
+  padding: 1px;
+  border-style: groove;
+  border-color: red;
+  text-align: center;
+}
+
+.content4 {
+  background-color: pink;
+  color: black;
+  margin: 20px;
+  font-family: Times;
+  padding: 1px;
+  border-style: groove;
+  border-color: orange;
+  text-align: center;
+}
+
+/* For the "trails" and "restaurants" pages' tables*/
+
+.table{
+background-color: violet;
+width:700px;
+}
+
+.list {
+  background-color: lavender;
+}
+
+/* The following is for the navigation bar*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #D29FF1;
+}
+.topnav a {
+  float:  center ;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: orange;
+  color: black;
+}
+
+.events {
+  overflow: hidden;
+  background-color: #D29FF1;
+}
+
+.events a {
+  float:  left ;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.events a:hover {
+  background-color: orange;
+  color: black;
+}
+
+/* This makes the images circular*/
+.image-cropper {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    border-style: groove;
+    border-color: #FE8B0A;
+    border-width: 30px;
+}
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+/* Columns used to align the images on the same line*/
+
+.column {
+  float: left;
+  padding: 10px;
+  overflow: scroll;
+  width: 30%;
+  margin: 5px;
+}
+
+.column.side {
+  width: 30%;
+}
+
+.column.middle {
+  width: 30%;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* To adjust the size of the screen when the images shift*/
+@media screen and (max-width:1100px){
+  .column.side, .column.middle, .column{
+    width: 100%
+  }
+}

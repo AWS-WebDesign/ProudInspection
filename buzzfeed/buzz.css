@@ -1,0 +1,37 @@
+.page{
+  background-image: url("marble.jpeg");
+}
+
+.title1 {
+  color: black;
+  font-size: 30px;
+  font-family: Lucida Console, Courier, monospace;
+  text-align: center;
+  border-style: inset;
+  border-color: pink;
+}
+.title2 {
+  color: black;
+  font-size: 15px;
+  font-style: Courier;
+  text-align: center;
+
+}
+
+.title3 {
+  color: white;
+  background-image: url("money.jpeg");
+  padding: 30px;
+ }
+
+ .title3 h1{
+     display: block;
+     font-size: 20px;
+     font-style: Courier;
+     padding: 1px;
+     text-align: center;
+     font-family: cursive;
+     border-style: solid;
+     border-color: white;
+     background-color: black;
+ }

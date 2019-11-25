@@ -1,20 +1,35 @@
+
+
 div {
-  height: 400px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
   display: block;
-  margin: 45px;
-  padding: 45px;
-  background-color: yellow;
+  padding:400;
   position: relative;
+  background-color: red;
+  transition: background-color 2s;
 
   animation-name: example2;
+  animation-timing-function: linear;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-delay: 1s;
+
 }
 
-@keyframes example2 {
-  0% {background-color: red; left: 0px; top: 0px;}
-  30% {background-color: orange; left: 0px; top: 300px;}
-  100% {background-color: yellow; left: 0px; top: 0px;}
+div:hover{
+  background-color: orange;
+}
+
+
+
+@keyframes example2{
+  0% {left: 10px; top:px;}
+  50% {right: 10px; top:px;}
+  75% { top:10px;}
+  100% { down:10px;}
+
+
+
+
 }

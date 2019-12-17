@@ -1,0 +1,53 @@
+.page{
+  background-color: black;
+  font-family: copperplate;
+  color: white;
+}
+
+.page h1{
+  border-color: blue;
+  border-style: groove;
+  border-width: 10px;
+  font-size: 72px;
+  padding-top: 5px;
+}
+
+.page a {
+  color: white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  align-items: left
+  padding: 14px 16px;
+  font-size: 60px;
+  border-color: blue;
+  border-style: groove;
+  width: 48.5%;
+  height: 300px;
+}
+
+.topnav a.nav{
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  text-decoration: none;
+  background-image: url("fox.jpg");
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: black;
+  color: black;
+  display:
+
+
+}
+.topnav a.options:hover {
+  background-image: url("fox2.jpg");
+  color: black;
+}

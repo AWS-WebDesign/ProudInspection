@@ -4,6 +4,10 @@
   color: white;
 }
 
+.more {
+  background-color: black;
+
+}
 .page h1{
   border-color: blue;
   border-style: groove;
@@ -18,6 +22,8 @@
 
 .gallery{
   float: left;
+  padding: 10px;
+  background-color: black;
 }
 
 #instagram {
@@ -29,26 +35,63 @@
 }
 
 .lock{
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 200px;
   display: block;
-  background-color: black;
+  background-color: blue;
+  color: black;
+  font-size: 80px;
   position: relative;
   transition: background-image 4s;
 
   animation-name: example2;
-  animation-timing-function: linear;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-iteration-count:
   animation-delay: 2s;
-  float: left;
+  float: center;
 
 }
 
-@keyframes example2 {
-  0% {font-size: 10px; left: 0px; right: 40px;}
+@keyframes example2{
+  0% {width: 0px; height: 50px;}
+    30% {width: 350px; height: 90px;}
+    50% {width: 500px; height: 90px;}
+    100% {width: 500px; height: 90px;}
+}
 
-  100% {font-size: 10px; left: 0px; right: 40px;}
+.move{
+
+  position: relative;
+  transition: background-image 4s;
+
+  animation-name: example3;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+  animation-iteration-count:
+  animation-delay: 2s;
+  float: center;
+}
+
+.move:hover{
+  background-color: blue;
+}
+
+@keyframes example3{
+  0% {width: 500px; height: 500px;}
+    100% {width: 500px; height: 400px;}
+}
+
+
+
+
+.lock p{
+  font-size: 30px;
+}
+
+.lock h2{
+  background-color: white;
+  color: blue;
 }
 
 .topnav a {
@@ -58,7 +101,7 @@
   text-align: center;
   padding: 14px 16px;
   font-size: 20px;
-  background-color: grey;
+  background-color: white;
   width: 15%;
 
 }
@@ -82,18 +125,26 @@
   color: black;
 }
 
+.title{
+  height: 100px;
+  width: 300px;
+  display: block;
+  margin: 45px;
+  padding: 45px;
+  background-color: blue;
+  border-color: white;
+  border-width: 30px;
+  border-color: blue;
+  position: relative;
+  transition: background-image 4s;
 
+  animation-name: example2;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
 
-
-
-
-
-
-
-
-
-@keyframes example2 {
-  0% {font-size: 14px; top: 0px; left: 0px;}
-  50% {font-size: 32px; top: 50px; left: 50px;}
-  100% {font-size: 14px; top: 0px; left: 0px;}
+.title:hover {
+  background-color: red;
 }

@@ -1,0 +1,33 @@
+div {
+  height: 100%;
+  width: 100%;
+  display: block;
+  padding:400;
+  position: relative;
+  background-color: red;
+  transition: background-color 2s;
+
+  animation-name: example2;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+
+}
+
+div:hover{
+  background-color: orange;
+}
+
+
+
+@keyframes example2{
+  0% {left: 10px; top:px;}
+  50% {right: 10px; top:px;}
+  75% { top:10px;}
+  100% { down:10px;}
+
+
+
+
+}

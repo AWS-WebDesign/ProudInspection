@@ -1,0 +1,440 @@
+
+
+.title { /*connects to div for title */
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 200px; /*specifies the title's font and appearance */
+  letter-spacing: 3px;
+  text-transform: lowercase; /*the title div makes everything lowercase, in order to give my website
+  a more cohesive, and aesthetic look and style */
+  text-align: center;
+  background-image: url(marble.jpeg); /*this marble background occurs throughout
+  most of the page */
+  background-repeat: repeat;
+}
+
+
+.title nav{
+  float: left; /* this is the specifics for the navigation bar*/
+  text-decoration: none;
+  font-size: 22px; /*creating a different font size for my navigation abr to differentiate from the title */
+}
+
+.title nav ul{
+  margin: 0; /* there isnt large space between the different navigation bar options for them to take up less space. */
+  padding: 0;
+  list-style: none;
+}
+.title nav a{
+  color: black; /* making the link color black, allows it to appear as a nicer text, rather than a regular blue link*/
+  text-decoration: none;
+  float: left; /*allows for optimal spacing, to leave space for other items*/
+}
+.title nav a::before{
+  content: '';
+  display: block; /* helps with determining the spacing and boxing of the navigation options*/
+  height: 5px;
+  background-color: black;
+
+  position: absolute; /* calls for its position to be absolute, as in, it will stay in its position regardless*/
+  top: 0;
+  width: 0%;
+  color: black;
+
+transition: all ease-in-out 200ms; /*this and the above information draws a line over navigation option, and
+eases it in and out. the 200ms, makes for a timely transition that doesn't feel too rushed.*/
+}
+
+.title nav a:hover{ /*only occurs when a navigation option is hovered over */
+  color: #e580ff; /* the text that transitions as the navigation option is hovered will be in this color.*/
+}
+
+.title nav a:hover::before{
+  width: 100%;
+}
+
+.title nav li{
+  display: inline-block; /* this also effects the spacing and shape of the boxes for the navigation options.*/
+  letter-spacing: 2px;
+  position: relative;
+}
+.title header::after {
+  display: table; /* this outlines what happens to the navigation option, in the aftermath after the hover.
+  this simply states that when an option is not being hovered over, it will return back to its normal state.*/
+  clear: both;
+  content: '';
+}
+
+.about{ /*this connects to the descriptions, and extra information on the home and projects pages */
+  border: 10px solid transparent;
+  padding: 5px;
+  border-image: url(2.jpeg) 30 round; /*the border information outlines the size of the border, its image, and padding.
+  the image contributes to the aformentioned style and the overall look of the website */
+  font-size: 20px;
+  border-width: 20px;
+}
+.about img{
+  border-radius: 50%; /* this connects to the image on the home page*/
+  position: relative;
+  animation-name: example2; /*giving it an animation name allows it to connect to the animation below */
+
+
+  animation-timing-function: ease-in;
+  animation-duration: 3s; /*this determines how long the animation lasts*/
+  float: center;
+  animation-delay: 1s; /* determines how long after the wepage opens for the animation to begin*/
+  }
+
+  @keyframes example2{
+    0% {width: 10px; height: 10px;} /* the animation will begin at a very small size*/
+    100% {width: 300px; height: 300px;}/* when the animation is at its full capacity, it will be a much larger picture*/
+  }
+
+.about p{
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 18px;
+  /*for different descriptons, the one under p, will follow these style components */
+  letter-spacing: 2px;
+  border-style: solid;
+  border-color: lavender;
+  border-width: 30px;
+}
+.about img:hover{
+  border-radius: 30px;
+  /*this connects to the image on the home page, so that when you hover over it, it makes a more square shaped picture. this makes the website more
+  interactive and creates a different look for the page for the user. */
+}
+
+.button{
+  color: white;
+  /*this connects to the "click to explore" button on the home page. */
+  float: center;
+}
+
+.button nav{
+  float: center;
+  text-decoration: none;
+  /*the button will follow these parameters*/
+  font-size: 22px;
+}
+.button nav a{
+  color: black;
+/* this changes the color of the text to black, so that it doesnt appear as a blue link.*/
+  text-decoration: none;
+  float: center;
+  background-color: white;
+
+
+  border: 10px solid transparent;
+  padding: 5px;
+  border-image: url(2.jpeg) 30 round;
+  /* has the same background image as the other divs*/
+  padding: 30px;
+}
+.button nav a:hover{
+  color: #e580ff;
+  /*when the button is hovered over, it will change to these aspects*/
+  background-color: black;
+}
+
+.time {
+    border: 10px solid transparent;
+    padding: 5px;
+    /* this connects to the information on the pages that explains the websites. the border outlines is different from the
+    rets of the webiste in order to establish contrast and highlight the information inside the boxes.*/
+    border-image: url(time.jpeg) 30 round;
+    font-size: 20px;
+    border-width: 20px;
+  }
+.time a {
+    text-decoration: none;
+  }
+
+.month{
+  float : left;
+  background-image: url(marble.jpeg);
+  background-repeat: repeat;
+  /* the repeat aspect makes it so that the background image is consistent all throughout the page*/
+
+}
+.month img{
+  border: 10px solid transparent;
+  margin-left: 10px;
+  /*connects to the folder in the projects page. they are floated left so that they align next to each other,
+  and are spaced out evently on the page. */
+  margin-right: 10px;
+  border-image: url(time.jpeg) 30 round;
+
+  float: left;
+  padding: 40px;
+
+}
+.month h1{
+  font-family: cursive;
+  /* a cursive font fot the different months*/
+  font-size: 40px;
+  letter-spacing: 20px;
+}
+
+
+.month a{
+  text-decoration: none;
+  background-image: url(marble.jpeg);
+  background-repeat: repeat;
+  /* the repeat aspect makes it so that the background image is consistent all throughout the page*/
+  align-items: center;
+}
+
+.month2{
+  float : left;
+  background-image: url(marble.jpeg);
+  background-repeat: repeat;
+  /* the repeat aspect makes it so that the background image is consistent all throughout the page*/
+
+}
+
+.month2 img{
+  border: 10px solid transparent;
+  padding: 5px;
+  /* differs from the other month div,as it has a different background*/
+  border-image: url(time.jpeg) 30 round;
+  background-image: url(marble.jpeg);
+  background-repeat: repeat;
+
+}
+
+.about2{
+  font-size: 10px;
+  border: 5px solid transparent;
+  padding: 5px;
+  border-image: url(2.jpeg) 30 round;
+  border-width: 10px;
+}
+/* this is for divs red - click5
+
+for each colored page for the different websites, they each have similar size parameters, except for the color style. for each div
+that is labeled a color, they are connected to a webpage's page. they each have different border and background images and looks.
+each color div is connected to a div labeled "click" this is for the information that describes the goal of the webpage. this is in a
+different div because its border and background images are switched. otherwise, their information is almost identical.*/
+.red{
+  font-size: 15px;
+  border: 5px solid transparent;
+  padding: 5px;
+  border-image: url(red.jpg) 30 round;
+  border-width: 10px;
+  border-spacing: inherit;
+  background-image: url(back2.jpg);
+  color: white;
+  overflow: hidden;
+
+}
+
+.web {
+  float: left;
+  padding: 5px;
+  position: inherit;
+}
+
+.click{
+  font-size: 15px;
+  border: 5px solid transparent;
+  padding: 15px;
+  border-image: url(red.jpg) 30 round;
+  border-width: 10px;
+  border-spacing: inherit;
+  background-image: url(back2.jpg);
+  color: white;
+  position: inherit;
+  overflow: hidden;
+  align-items: center;
+}
+
+.next{
+  float: right;
+}
+
+.orange{
+  font-size: 15px;
+  border: 5px solid transparent;
+  padding: 15px;
+  border-image: url(back2.jpg) 30 round;
+  border-width: 10px;
+  border-spacing: inherit;
+  background-image: url(orange.jpg);
+  color: white;
+  position: inherit;
+  overflow: hidden;
+  align-items: center;
+}
+
+.click2 {
+  font-size: 15px;
+  border: 5px solid transparent;
+  padding: 15px;
+  border-image: url(orange.jpg) 30 round;
+  border-width: 10px;
+  border-spacing: inherit;
+  background-image: url(back2.jpg);
+  color: white;
+  position: inherit;
+  overflow: hidden;
+  align-items: center;
+}
+
+.green{
+  font-size: 15px;
+  border: 5px solid transparent;
+  padding: 15px;
+  border-image: url(back2.jpg) 30 round;
+  border-width: 10px;
+  border-spacing: inherit;
+  background-image: url(green.jpg);
+  color: white;
+  position: inherit;
+  overflow: hidden;
+  align-items: center;
+}
+
+
+.click3 {
+  font-size: 15px;
+  border: 5px solid transparent;
+  padding: 15px;
+  border-image: url(green.jpg) 30 round;
+  border-width: 10px;
+  border-spacing: inherit;
+  background-image: url(back2.jpg);
+  color: white;
+  position: inherit;
+  overflow: hidden;
+  align-items: center;
+}
+
+.blue {
+  font-size: 15px;
+  border: 5px solid transparent;
+  padding: 15px;
+  border-image: url(back2.jpg) 30 round;
+  border-width: 10px;
+  border-spacing: inherit;
+  background-image: url(blue.jpg);
+  color: white;
+  position: inherit;
+  overflow: hidden;
+  align-items: center;
+}
+
+.click4 {
+    font-size: 15px;
+    border: 5px solid transparent;
+    padding: 15px;
+    border-image: url(back2.jpg) 30 round;
+    border-width: 10px;
+    border-spacing: inherit;
+    background-image: url(blue.jpg);
+    color: white;
+    position: inherit;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  .back{
+    float: left;
+  }
+
+  .back2{
+    float: right;
+  }
+
+  .red2{
+    font-size: 15px;
+    border: 5px solid transparent;
+    padding: 15px;
+    border-image: url(back2.jpg) 30 round;
+    border-width: 10px;
+    border-spacing: inherit;
+    background-image: url(red.jpg);
+    color: white;
+    position: inherit;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  .purple {
+    font-size: 15px;
+    border: 5px solid transparent;
+    padding: 15px;
+    border-image: url(back2.jpg) 30 round;
+    border-width: 10px;
+    border-spacing: inherit;
+    background-image: url(2.jpeg);
+    color: black;
+    position: inherit;
+    overflow: hidden;
+    align-items: center;
+
+  }
+
+  .click5  {
+    font-size: 15px;
+    border: 5px solid transparent;
+    padding: 15px;
+    border-image: url(2.jpeg) 30 round;
+    border-width: 10px;
+    border-spacing: inherit;
+    background-image: url(back2.jpg);
+    color: white;
+    position: inherit;
+    overflow: hidden;
+    align-items: center;
+  }
+/* end of the above description.*/
+  .w3{
+    float: left;
+    /*connects to the image on the learn more page. */
+    background-image: url(back2.jpg); /* requires another div, as the background image si different from the rest of the webpage*/
+    color: white;
+  }
+
+  .info{
+    float: right;
+    border: 5px solid transparent;
+    border-image: url(time.jpeg) 20 round;
+    border-width: 20px;
+    /* this connects to the decription of the iamges on the learn more website. its spacing is inherited, so that it does not interfere
+    with the appearance of the image.*/
+    border-spacing: inherit;
+    background-image: url(back2.jpg);
+  }
+
+.codepic{
+  height: 100%;
+  width: 100%;
+  /* this connects to the images that are on the left and right sides of the projects and learn more page*/
+  display: block;
+  position: relative;
+  transition: 2s; /*determines how long the transition takes*/
+
+  animation-name: example3;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+  /*the animation will be 3s long. however, since it is infinite, it will repeat in 3s intervals. */
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+/*the NEW animation (from w3) */
+@keyframes example3{ /*thsi connects to the info above, as it is under the same name*/
+  from { /*this information determines how the animation starts */
+		transform: rotate(0deg)
+		           translate(-30px)
+		           rotate(0deg);
+	}
+	to { /*this determines what the animation becomes */
+		transform: rotate(360deg) /* it will rotate 360 degrees, and move along a circular path*/
+		           translate(-30px)/*it will not rotate 360 in one place, it will move, whislst simultaneously being on a circular path */
+		           rotate(-360deg);
+	}
+}
+}

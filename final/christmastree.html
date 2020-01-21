@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Holiday Thing!</title>
+    <link rel="stylesheet" href="treecolor.css">
+  </head>
+  <body>
+    <div class="back2">
+      <a href="green3.html"><img src="backbutton.png" alt="next" height=80 width=80></a>
+      <a href="projects.html"><img src="homebutton.png" alt="next" height=70 width=70></a>
+    </div>
+    <h1>Our Christmas Tree!</h1>
+    <canvas id="tree"  width="400" height="500" style="border:1px solid;"></canvas>
+    <script >
+      var t = document.getElementById("tree");
+      var treeline = t.getContext("2d");
+      treeline.moveTo(100,150);
+      treeline.lineTo(300,150);
+      treeline.stroke();
+      treeline.moveTo(300,150);
+      treeline.lineTo(200,50);
+      treeline.stroke();
+      treeline.moveTo(200,50);
+      treeline.lineTo(100,150);
+      treeline.stroke();
+      treeline.moveTo(200,125);
+      treeline.lineTo(300,225);
+      treeline.stroke();
+      treeline.moveTo(300,225);
+      treeline.lineTo(100,225);
+      treeline.stroke();
+      treeline.moveTo(100,225);
+      treeline.lineTo(200,125);
+      treeline.stroke();
+      treeline.moveTo(200,200);
+      treeline.lineTo(300,300);
+      treeline.stroke();
+      treeline.moveTo(300,300);
+      treeline.lineTo(100,300);
+      treeline.stroke();
+      treeline.moveTo(100,300);
+      treeline.lineTo(200,200);
+      treeline.stroke();
+      treeline.moveTo(200,125);
+      treeline.lineTo(300,225);
+      treeline.stroke();
+      treeline.moveTo(300,225);
+      treeline.lineTo(100,225);
+      treeline.stroke();
+      treeline.moveTo(175,300);
+      treeline.lineTo(175,400);
+      treeline.stroke();
+      treeline.moveTo(175,400);
+      treeline.lineTo(225,400);
+      treeline.stroke();
+      treeline.moveTo(225,400);
+      treeline.lineTo(225,300);
+      treeline.stroke();
+    </script>
+  </body>
+</html>
